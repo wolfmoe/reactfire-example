@@ -1,0 +1,37 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "firebase": "^8.2.10",
+    "react": "^0.0.0-experimental-ee4326357",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^0.0.0-experimental-ee4326357",
+    "react-firebaseui": "^4.2.0",
+    "reactfire": "^3.0.0-rc.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@parcel/optimizer-cssnano": "2.0.0-nightly.617",
+    "@parcel/optimizer-htmlnano": "2.0.0-nightly.617",
+    "@parcel/packager-css": "2.0.0-nightly.617",
+    "@parcel/packager-html": "2.0.0-nightly.617",
+    "@parcel/transformer-css": "2.0.0-nightly.617",
+    "@parcel/transformer-html": "2.0.0-nightly.617",
+    "@parcel/transformer-postcss": "2.0.0-nightly.617",
+    "@parcel/transformer-posthtml": "2.0.0-nightly.617",
+    "autoprefixer": "10",
+    "babel-preset-env": "^1.7.0",
+    "parcel": "^2.0.0-nightly.615",
+    "postcss": "8",
+    "postcss-loader": "^5.0.0",
+    "postcss-flexbugs-fixes": "5",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.0.3"
+  }
+}
